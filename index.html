@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>groupify</title>
+    <link rel="stylesheet" href="./../css/firstPage.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>groupify</h1>
+        <nav>
+          <a href="#" class="login-link">Login</a>
+          <a href="#" class="signup-link">Sign Up</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <form class="login-form">
+          <h2>Login</h2>
+          <label for="email">Email</label>
+          <input type="email" id="login-email" />
+          <label for="password">Password</label>
+          <input type="password" id="login-password" />
+          <button id="getData" type="submit">Login</button>
+          <p class="signup-link">
+            Don't have an account?
+            <a href="#" class="signup-link" id="sign-up-link">Sign Up</a>
+          </p>
+        </form>
+        <form class="signup-form">
+          <h2>Sign Up</h2>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" />
+          <button type="submit" id="sign-up">Sign Up</button>
+          <p class="login-link">
+            Already have an account?
+            <a href="#" class="login-link" id="log-in-link">Login</a>
+          </p>
+        </form>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./../js/main.js"></script>
+    <script src="./../js/login.js"></script>
+    <script src="./../js/signup.js"></script>
+  </body>
+</html>

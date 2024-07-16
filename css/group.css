@@ -1,0 +1,229 @@
+.hidden {
+  display: none;
+}
+
+#searchContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+  background-color: #555;
+}
+
+#groupsContainer {
+  margin-top: 20px;
+}
+
+.group {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.group h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.members,
+.posts {
+  margin-top: 20px;
+}
+
+.members h4,
+.posts h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.post img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  margin-bottom: 10px;
+}
+.post {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.post-header {
+  margin-bottom: 10px;
+}
+
+.post-owner {
+  font-weight: bold;
+}
+.post-text {
+  font-weight: bold;
+  font-size: larger;
+}
+.post-content img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.post-content p {
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+}
+
+.post-actions button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.post-actions button:hover {
+  background-color: #555;
+}
+
+.like-button,
+.comment-button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.like-button:hover,
+.comment-button:hover {
+  background-color: #555;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comments.hidden {
+  display: none;
+}
+
+.comment {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment p {
+  margin-bottom: 5px;
+}
+
+.comment p:last-child {
+  margin-bottom: 0;
+}
+/* Hide posts container by default */
+.posts.hidden {
+  display: none;
+}
+
+/* Style the show posts button */
+.show-posts-button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.show-posts-button:hover {
+  background-color: #555;
+}
+/* Style the create post section */
+.create-post {
+  margin-bottom: 20px;
+}
+
+.post-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.post-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post-button:hover {
+  background-color: #555;
+}
+.create-comment {
+  margin-bottom: 10px;
+}
+
+.comment-input {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.add-comment-button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-comment-button:hover {
+  background-color: #555;
+}
